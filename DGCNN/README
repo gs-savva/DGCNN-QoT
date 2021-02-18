@@ -1,5 +1,5 @@
-Each .zip comprises of the dataset used and the train and test instances used in our paper. 
-The structure of the dataset file is the following:
+The DGCNN.zip comprises of the datasets used in our paper. 
+The structure of each dataset file is the following:
 
 1st row: Overall number of graphs in the dataset (e.g., 3680)
 
