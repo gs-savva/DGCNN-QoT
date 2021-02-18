@@ -1,1 +1,49 @@
+Each .zip comprises of the dataset used and the train and test instances used in our paper. 
+The structure of the dataset file is the following:
 
+1st row: Overall number of graphs in the dataset (e.g., 3680)
+
+2nd row: Number of nodes in the i graph (n) and label of ith graph (e.g., 110 1)
+
+n rows: node id number of links connected to node nodes connected to that node, attributes of that node.
+.
+.
+.
+. 
+
+n+i+2 row: Number of nodes in the second graph and label of first graph
+...
+...
+
+Example of one (1) node instance:
+26 1 85 0.495495 0.730000 0.085271 0.400000 0.750000 0.500000 0.666667 0.102564 0.333333 0.000000000
+The data in this row signify that node with id = 26 is connected to 1 node, node with id = 85. The attributes of node 26 are the following:
+(0.495495 0.730000 0.085271 0.400000 0.750000 0.500000 0.666667 0.102564 0.333333 0.000000000)
+
+
+
+An example of a dataset file with this structure is presented below:
+2
+5 0
+0 0 0.000000 0.000000 0.000000 
+1 1 3 0.500000 0.700000 0.300000 
+2 2 3 4 1.000000 0.6500000 0.400000 
+3 2 1 2 0.400000 0.300000 0.200000 
+4 1 2 1.000000 1.000000 1.000000 
+5 1
+0 0 0.000000 0.000000 0.000000 
+1 1 2 0.400000 0.200000 0.100000 
+2 1 1 0.700000 0.300000 0.500000 
+3 0 0.000000 0.000000 0.000000 
+4 0 0.000000 0.000000 0.000000 
+
+In this example, the dataset consists of two (2) graphs. The first graph has five (5) nodes, and the graph is labeled as zero(0) for the classification problem. 
+In this graph, node with id=1 is connected to node with id=3 and node 2 is connected to nodes 3 and 4. Further, all connections are bidirectional (i.e., if node i is connected to node j, then node j is also connected to node i).
+Regarding the feature attributes, each node has 3 feature attributes in this example. For instance, the attributes of node 1 are: 0.500000 0.700000 0.300000.
+Similarly, the second graph has 5 nodes, and the graph is labeled as one(1). In this case, node 1 is connected to node 2. Also, the feature attributes of node 1 are: 0.400000 0.200000 0.100000.
+
+
+
+Finally, the 10fold_idx folder has 10 different folds for running the algorithm. The id of the test instances are in each test_idx-xx file and the train instances are in each train_idx-xx file.
+
+This structure of the dataset files was selected in order for the algorithm proposed in (paper DGCN) to work.
