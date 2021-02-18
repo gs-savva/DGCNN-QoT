@@ -1,0 +1,1 @@
+The 10fold_idx folder has 10 different folds for running the algorithm. The id of the test instances are in each test_idx-xx file and the train instances are in each train_idx-xx file.
