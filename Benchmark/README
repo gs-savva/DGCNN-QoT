@@ -1,3 +1,3 @@
-This .zip contains the datasets used for the benchmark approach of our paper.
+The Benchmark.zip contains the datasets used for the benchmark approach of our paper.
 Specifically, each dataset is stored in file NN_Bench.txt, and each row corresponds to an instance. The first seven (7) columns are the attributes of that instance
 and the final column is the label of the instance for the classification problem.
