@@ -46,4 +46,8 @@ Similarly, the second graph has 5 nodes, and the graph is labeled as one(1). In 
 
 Finally, the 10fold_idx folder has 10 different folds for running the algorithm. The id of the test instances are in each test_idx-xx file and the train instances are in each train_idx-xx file.
 
-This structure of the dataset files was selected in order for the algorithm proposed in (paper DGCN) to work.
+This structure of the dataset files was selected in order for the algorithm proposed in:
+"Zhang, Muhan and Cui, Zhicheng and Neumann, Marion and Chen, Yixin, 'An End-to-End Deep Learning Architecture for Graph Classification, Proc. AAAI, 2018'" to work. 
+Link to the respository: https://github.com/muhanzhang/pytorch_DGCNN
+
+
