@@ -48,6 +48,6 @@ Finally, test_train_idx folder has the training and testing instances used for e
 
 This structure of this dataset was selected in accordance to the algorithm proposed in:
 "Zhang, Muhan and Cui, Zhicheng and Neumann, Marion and Chen, Yixin, 'An End-to-End Deep Learning Architecture for Graph Classification, Proc. AAAI, 2018". 
-Link to the respository (Accessed on 7/10/2020): https://github.com/muhanzhang/pytorch_DGCNN
+The original code implementation can be found in: https://github.com/muhanzhang/pytorch_DGCNN   (Accessed on 7/10/2020)
 
 
