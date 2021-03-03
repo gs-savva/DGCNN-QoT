@@ -1,17 +1,17 @@
 The DGCNN.zip comprises of the datasets used in our paper. 
 The structure of each dataset file is the following:
 
-1st row: Overall number of graphs in the dataset (e.g., 3680)
+1st row: Overall number of graphs in the dataset (e.g., 2)
 
-2nd row: Number of nodes in the i graph (n) and label of ith graph (e.g., 110 1)
+2nd row: Number of nodes, n, in the 1st graph and label of 1st graph (e.g., 5 0)
 
-n rows: node id number of links connected to node nodes connected to that node, attributes of that node.
+n rows: node id, number of links connected to node, nodes connected to that node, attributes of that node.
 .
 .
 .
 . 
 
-n+i+2 row: Number of nodes in the second graph and label of first graph
+n+i+2 row: Number of nodes in the ith graph and label of first graph
 ...
 ...
 
@@ -37,12 +37,12 @@ An example of a dataset file with this structure is presented below:
 3 0 0.000000 0.000000 0.000000 
 4 0 0.000000 0.000000 0.000000 
 
-In this example, the dataset consists of two (2) graphs. The first graph has five (5) nodes, and the graph is labeled as zero(0) for the classification problem. 
-In this graph, node with id=1 is connected to node with id=3 and node 2 is connected to nodes 3 and 4. Further, all connections are bidirectional (i.e., if node i is connected to node j, then node j is also connected to node i).
-Regarding the feature attributes, each node has 3 feature attributes in this example. For instance, the attributes of node 1 are: 0.500000 0.700000 0.300000.
+In this example, the dataset consists of two (2) graphs (i.e., two different patterns). The first graph has five (5) nodes, and the graph is labeled as zero(0) for the classification problem. 
+In this graph, node with id=1 is connected to node with id=3 and node 2 is connected to nodes 3 and 4. Further, the matrix is symmetric (i.e., if node i is connected to node j, then node j is also connected to node i).
+Regarding the feature attributes, each node has 3 feature attributes in this example. For instance, the attributes of node with id = 1 are: 0.500000 0.700000 0.300000.
 Similarly, the second graph has 5 nodes, and the graph is labeled as one(1). In this case, node 1 is connected to node 2. Also, the feature attributes of node 1 are: 0.400000 0.200000 0.100000.
 
-
+It is noted that the attributes utilized in our paper are ten (10) and are defined in the manuscript under review.
 
 Finally, test_train_idx folder has the training and testing instances used for each connection.
 
