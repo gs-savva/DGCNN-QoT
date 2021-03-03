@@ -1,3 +1,3 @@
 The DNN.zip contains the datasets used for the benchmark approach (DNN) of our paper.
-Specifically, each dataset is stored in file NN_Bench.txt, and each row corresponds to an instance. The first seven (7) columns are the attributes of that instance
+Specifically, each dataset is stored in file NN_Bench.txt, and each row corresponds to an instance. The first nine (9) columns are the attributes of that instance
 and the final column is the label of the instance for the classification problem. Also, folder test_train_idxs includes the test and train instances used to produce the presented results
