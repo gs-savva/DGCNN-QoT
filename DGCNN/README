@@ -46,8 +46,8 @@ It is noted that the attributes utilized in our paper are ten (10) and are defin
 
 Finally, test_train_idx folder has the training and testing instances used for each connection.
 
-This structure of the dataset files was selected in order for the algorithm proposed in:
-"Zhang, Muhan and Cui, Zhicheng and Neumann, Marion and Chen, Yixin, 'An End-to-End Deep Learning Architecture for Graph Classification, Proc. AAAI, 2018'" to work. 
+This structure of this dataset was selected in accordance to the algorithm proposed in:
+"Zhang, Muhan and Cui, Zhicheng and Neumann, Marion and Chen, Yixin, 'An End-to-End Deep Learning Architecture for Graph Classification, Proc. AAAI, 2018". 
 Link to the respository (Accessed on 7/10/2020): https://github.com/muhanzhang/pytorch_DGCNN
 
 
