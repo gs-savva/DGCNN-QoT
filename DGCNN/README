@@ -12,7 +12,7 @@ node id, degree of node, nodes connected to that node, attributes of that node.
 .
 . 
 
-n+i+2th row: Number of nodes (n) in the ith graph and label of first graph
+(n+i+2th row): Number of nodes (n) in the ith graph and label of first graph
 (n rows): node id, degree of node, nodes connected to that node, attributes of that node.
 
 ...
