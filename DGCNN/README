@@ -1,17 +1,20 @@
 The DGCNN.zip comprises of the datasets used in our paper. 
 The structure of each dataset file is the following:
 
-1st row: Overall number of graphs in the dataset (e.g., 2)
+(1st row): Overall number of graphs in the dataset (e.g., 2)
 
-2nd row: Number of nodes, n, in the 1st graph and label of 1st graph (e.g., 5 0)
+(2nd row): Number of nodes (n) in the 1st graph and label of 1st graph (e.g., 5 0)
 
-n rows: node id, number of links connected to node, nodes connected to that node, attributes of that node.
+(n rows): For each node in the graph, each row provides the following:
+node id, degree of node, nodes connected to that node, attributes of that node.
 .
 .
 .
 . 
 
-n+i+2 row: Number of nodes in the ith graph and label of first graph
+n+i+2th row: Number of nodes (n) in the ith graph and label of first graph
+(n rows): node id, degree of node, nodes connected to that node, attributes of that node.
+
 ...
 ...
 
@@ -22,7 +25,7 @@ The data in this row signify that node with id = 26 is connected to 1 node, node
 
 
 
-An example of a dataset file with this structure is presented below:
+An example of a dataset file following this structure is presented below:
 2
 5 0
 0 0 0.000000 0.000000 0.000000 
